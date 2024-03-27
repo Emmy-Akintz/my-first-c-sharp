@@ -1,0 +1,12 @@
+Console.WriteLine("Hello, my name is...");
+
+Console.ReadLine();
+
+Console.WriteLine("...and my age is...");
+
+Console.ReadLine();
+
+Console.ForegroundColor = ConsoleColor.Blue; // changed the text appearance
+Console.WriteLine("and I am happy to test your code.");
+
+Console.ReadKey();
