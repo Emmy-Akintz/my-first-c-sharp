@@ -2,4 +2,4 @@ dotnet new console
 
 dotnet run
 
-3 next
+tut2- 3.30
