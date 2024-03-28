@@ -1,22 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿int num01;
+int num02;
 
-//  Change the appearance
+Console.Write("Input a number: ");
 
-Console.Title = "Skynet";
-Console.ForegroundColor = ConsoleColor.Green;
-Console.WindowHeight = 40;
+num01 = Convert.ToInt32(Console.ReadLine());
 
-// Get a conversation going
+Console.Write("Input a second number: ");
 
-Console.WriteLine("Hello, what's your name?");
+num02 = Convert.ToInt32(Console.ReadLine());
 
-Console.ReadLine(); // This works too
-
-Console.WriteLine("My name is RX-9000.\nI'm an AI sent from the future to destroy mankind.");
-Console.WriteLine("What is your favorite color?");
-
-Console.ReadLine();
-
-Console.WriteLine("Cool! Mine is destruction.");
-
+//* Wait before closing
 Console.ReadKey();

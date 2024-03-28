@@ -2,4 +2,4 @@ dotnet new console
 
 dotnet run
 
-tut2- 3.30
+tut2- 10.04
