@@ -70,6 +70,4 @@ public class Form1 : Form
     {
         Application.Exit();
     }
-    
-           
 }
